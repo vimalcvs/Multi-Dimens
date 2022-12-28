@@ -20,7 +20,7 @@ allprojects {
 ```
 dependencies {
        
-       	implementation 'com.github.vimalcvs:multi-dimens:1.0.0'
+       	implementation 'com.github.vimalcvs:multi-dimens:1.1.0'
 }
 ```
 **Basic Usage :**
