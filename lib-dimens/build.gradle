@@ -4,14 +4,14 @@ plugins {
 }
 
 group = 'com.github.jitpack'
-version = '0.0.4'
+version = '0.0.5'
 
 android {
     namespace 'com.vimalcvs.mdimens'
-    compileSdkVersion 33
+    compileSdk 34
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 33
+        targetSdk 34
     }
 
     buildTypes {
@@ -27,7 +27,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'com.google.android.material:material:1.11.0'
 }
 
 afterEvaluate {
@@ -37,7 +37,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.jitpack'
                 artifactId = 'Mdimens'
-                version = '0.0.4'
+                version = '0.0.5'
             }
         }
     }

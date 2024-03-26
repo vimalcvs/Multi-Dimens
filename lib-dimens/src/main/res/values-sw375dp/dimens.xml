@@ -119,6 +119,8 @@
     <dimen name="dp_700">700.0dip</dimen>
     <dimen name="dp_710">710.0dip</dimen>
     <dimen name="dp_720">720.0dip</dimen>
+
+
     <dimen name="sp_102">102.0sp</dimen>
     <dimen name="sp_104">104.0sp</dimen>
     <dimen name="sp_106">106.0sp</dimen>
